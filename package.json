@@ -1,0 +1,19 @@
+{
+  "name": "choirbook_api",
+  "version": "1.0.0",
+  "description": "reseau social axé chorale",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amahaya/choirbook_api.git"
+  },
+  "author": "Amahaya Seth",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/amahaya/choirbook_api/issues"
+  },
+  "homepage": "https://github.com/amahaya/choirbook_api#readme"
+}
