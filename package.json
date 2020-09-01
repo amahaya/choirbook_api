@@ -4,7 +4,8 @@
   "description": "reseau social axé chorale",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "npx eslint ."
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,13 @@
   "bugs": {
     "url": "https://github.com/amahaya/choirbook_api/issues"
   },
-  "homepage": "https://github.com/amahaya/choirbook_api#readme"
+  "homepage": "https://github.com/amahaya/choirbook_api#readme",
+  "devDependencies": {
+    "eslint": "^7.8.0",
+    "eslint-config-airbnb-base": "^14.2.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-import": "^2.22.0",
+    "eslint-plugin-prettier": "^3.1.4",
+    "prettier": "^2.1.1"
+  }
 }
