@@ -6,7 +6,6 @@ const bodyParser = require("body-parser");
 const morgan = require("morgan");
 const helmet = require("helmet");
 
-
 app.use(bodyParser.urlencoded({ extended: false })); // parse req.body from JSON to JS
 app.use(morgan("dev")); // logger middleware
 app.use(helmet()); // secure http header
