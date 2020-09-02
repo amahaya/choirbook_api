@@ -1,10 +1,12 @@
+const { config } = require("dotenv"); // dotenv object destructuration
+config(); // dotenv.config()
 const express = require("express");
-
-const app = express();
-const PORT = 4000;
 const bodyParser = require("body-parser");
 const morgan = require("morgan");
 const helmet = require("helmet");
+
+const app = express();
+const PORT = process.env.PORT;
 
 app.use(bodyParser.urlencoded({ extended: false })); // parse req.body from JSON to JS
 app.use(morgan("dev")); // logger middleware
