@@ -13,7 +13,7 @@ app.use(morgan("dev")); // logger middleware
 app.use(helmet()); // secure http header
 
 app.get("/", (req, res) => {
-  res.send("coucou");
+  res.send(" <h1>Welcome on ChoirBook </h1> by <h1>AmahayaS</h1>");
 });
 
 app.listen(PORT, () => console.log(`Server started on port: ${PORT}`));
