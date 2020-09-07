@@ -9,12 +9,15 @@ module.exports = {
         type: Sequelize.INTEGER
       },
       idusers: {
+        allowNull: false,
         type: Sequelize.INTEGER
       },
       titre: {
+        allowNull: false,
         type: Sequelize.STRING
       },
       content: {
+        allowNull: false,
         type: Sequelize.STRING
       },
       attachement: {

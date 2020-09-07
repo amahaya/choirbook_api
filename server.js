@@ -4,6 +4,8 @@ const express = require("express");
 const bodyParser = require("body-parser");
 const morgan = require("morgan");
 const helmet = require("helmet");
+const faker = require("faker");
+
 
 const app = express();
 const PORT = process.env.PORT;
